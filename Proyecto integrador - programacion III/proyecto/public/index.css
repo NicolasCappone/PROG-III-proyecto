@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+
+}
+.colorAzul{
+    color: blue;
+}
+header, footer {
+    background-color: #3b83bd;
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    
+}
+header div h1, footer h1{
+    height: 50px;
+    margin: 0%;
+    margin-top: 40px;
+    font-family: "Segoe UI";
+    
+}
+
+#root{
+    margin-top: 4%
+}
+ .tarjeta{
+    border:1px solid black;
+    width: 28%; 
+    display: block;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-left: 3%;
+ }
+  .tarjeta img:hover {  
+    transform: scale(1.05);
+}
+
+ .tarjeta div {
+     width: 92%;
+     margin-left: 3.5%;
+     border:1px solid black;
+     margin-bottom: 2%;
+ }
+ .tarjeta h2 {
+     margin-top: 0.1%;
+     margin-bottom: 1%;
+     color: royalblue;
+     font-family: "Segoe UI";
+ }
+ .tarjeta h3{
+     margin-top: 0.2%;
+     margin-bottom: .8%;
+     font-family: "Segoe UI";
+ }
+ .tarjeta img{
+     width: 92%;
+     margin-top: 3%;
+ }
+ .caja{
+     justify-content: space-around  ;
+     display: flex;
+     flex-wrap: wrap;
+ }
